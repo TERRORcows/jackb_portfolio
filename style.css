@@ -8,9 +8,6 @@ body {
   padding: 0 5%;
 }
 
-a {
-  text-decoration: none;
-}
 
 img {
   max-width: 100%;
@@ -31,6 +28,7 @@ header
 ***********************************/
 
 header {
+  border-radius: 20px;
   float: left;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
@@ -54,6 +52,10 @@ h2 {
   font-size: 0.75em;
   margin: -px 0 0;
   font-weight: normal;
+}
+
+a {
+  text-decoration: none;
 }
 
 
@@ -85,15 +87,34 @@ nav a {
 
 /*body*/
 body {
-  background-color: #24414a;
+  background-color: #000000;
   color: #999;
 }
 
 /*header*/
 header {
-  background: #405cff;
+  background: #F8C4FE;
   border-color: #6e83ff;
 }
+
+/*about me*/
+
+#about_me {
+ font-family: 'monospace', monospace;
+font-size: 1.125em;
+    color: #FFFFFF;
+    background: #F8C4FE;
+        border: 5px solid #6e83ff;
+    border-radius: 10px;
+width: 20%;
+  float:left;
+  margin-right: 20px;
+     margin-top: %;
+    font-weight: bold;
+
+}
+
+
 
 /* nav background on mobile */
 nav {
@@ -107,7 +128,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6e83ff;
+  color: #F8C4FE;
 }
 
 /* nav link */
@@ -164,15 +185,22 @@ nav a.selected, nav a:hover {
 /*showcase*/
 
 #showcase {
-  margin: ;
+  margin: 10px;
   padding: 0;
   list-style: none;
+    margin-top: 5%;
+      border-radius: 10px;
+  
+
 }
 
 #showcase li {
+  display: inline;
   float: left;
   width: 20%;
   margin: 2%;
+  border-radius: 10px;
+  border-bottom: 5px solid #F8C4FE;
   background-color: #6e83ff;
   color: #bdc3c7;
 }
@@ -181,7 +209,7 @@ nav a.selected, nav a:hover {
   margin: 0;
   padding: 5%;
   font-size: 1em;
-  color: #FFFFFF    
+  color: #FFFFFF; 
 }
 
 
